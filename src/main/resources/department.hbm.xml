@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.san.hiber02.Department" table = "Department">
+      <meta attribute = "class-description">
+         This class contains the Department detail. 
+      </meta>
+      <id name = "deptid">
+         <generator class="increment"/>
+      </id>
+      <property name = "deptname"></property>
+    </class>
+</hibernate-mapping>
